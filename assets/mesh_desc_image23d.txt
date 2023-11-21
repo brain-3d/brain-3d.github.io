@@ -1,0 +1,49 @@
+eg: {
+    src: "/assets/glb/a_DSLR_photo_of_a_baby_dragon_hatching_out_of_a_stone_egg.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_baby_dragon_hatching_out_of_a_stone_egg.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a baby dragon hatching out of a stone eg",
+    shortCaption: "[...] a baby dragon hatching out of a stone eg"
+},
+tut: {
+    src: "/assets/glb/a_chihuahua_wearing_a_tutu.glb",
+    poster: "/assets/poster/a_chihuahua_wearing_a_tutu.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a chihuahua wearing a tut",
+    shortCaption: "a chihuahua wearing a tut"
+},
+costum: {
+    src: "/assets/glb/a_dachsund_dressed_up_in_a_hotdog_costume.glb",
+    poster: "/assets/poster/a_dachsund_dressed_up_in_a_hotdog_costume.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a dachsund dressed up in a hotdog costum",
+    shortCaption: "a dachsund dressed up in a hotdog costum"
+},
+hybri: {
+    src: "/assets/glb/a_dragon-cat_hybrid.glb",
+    poster: "/assets/poster/a_dragon-cat_hybrid.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a dragon-cat hybri",
+    shortCaption: "a dragon-cat hybri"
+},
+field: {
+    src: "/assets/glb/a_green_tractor_farming_corn_fields.glb",
+    poster: "/assets/poster/a_green_tractor_farming_corn_fields.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a green tractor farming corn field",
+    shortCaption: "a green tractor farming corn field"
+},
+mous: {
+    src: "/assets/glb/a_marble_bust_of_a_mouse.glb",
+    poster: "/assets/poster/a_marble_bust_of_a_mouse.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a marble bust of a mous",
+    shortCaption: "a marble bust of a mous"
+},
+woo: {
+    src: "/assets/glb/an_airplane_made_out_of_wood.glb",
+    poster: "/assets/poster/an_airplane_made_out_of_wood.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "an airplane made out of woo",
+    shortCaption: "an airplane made out of woo"
+},

@@ -1,0 +1,819 @@
+facades: {
+    src: "/assets/glb/A_22-storey_building_model_with_glass_facades.glb",
+    poster: "/assets/poster/A_22-storey_building_model_with_glass_facades.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "A 22-storey building model with glass facades",
+    shortCaption: "A 22-storey building model with glass facades"
+},
+cheesecake: {
+    src: "/assets/glb/An_octopus_and_a_giraffe_having_cheesecake.glb",
+    poster: "/assets/poster/An_octopus_and_a_giraffe_having_cheesecake.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "An octopus and a giraffe having cheesecake",
+    shortCaption: "An octopus and a giraffe having cheesecake"
+},
+UHD: {
+    src: "/assets/glb/Beautifully_designed_hyper-realistic_futuristic_electric_vehicle_for_elderly_people,_highest_poly_count,_highest_contrast,_highest_detail,_highest_quality,_UHD.glb",
+    poster: "/assets/poster/Beautifully_designed_hyper-realistic_futuristic_electric_vehicle_for_elderly_people,_highest_poly_count,_highest_contrast,_highest_detail,_highest_quality,_UHD.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "Beautifully designed hyper-realistic futuristic electric vehicle for elderly people highest poly count highest contrast highest detail highest quality UHD",
+    shortCaption: "Beautifully designed hyper-realistic futuristic electric vehicle for elderly people highest poly count highest contrast highest detail highest quality UHD"
+},
+quality_UHD: {
+    src: "/assets/glb/Beautifully_designed_hyper-realistic_psychedelic_bee-concept_futuristic_fighter_jet_aircraft,_highest_contrast,_highest_poly_count,_highest_detail,_highest_quality,_UHD.glb",
+    poster: "/assets/poster/Beautifully_designed_hyper-realistic_psychedelic_bee-concept_futuristic_fighter_jet_aircraft,_highest_contrast,_highest_poly_count,_highest_detail,_highest_quality,_UHD.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "Beautifully designed hyper-realistic psychedelic bee-concept futuristic fighter jet aircraft highest contrast highest poly count highest detail highest quality UHD",
+    shortCaption: "Beautifully designed hyper-realistic psychedelic bee-concept futuristic fighter jet aircraft highest contrast highest poly count highest detail highest quality UHD"
+},
+sofa: {
+    src: "/assets/glb/Michelangelo_style_statue_of_dog_reading_books_on_a_sofa.glb",
+    poster: "/assets/poster/Michelangelo_style_statue_of_dog_reading_books_on_a_sofa.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "Michelangelo style statue of dog reading books on a sofa",
+    shortCaption: "Michelangelo style statue of dog reading books on a sofa"
+},
+cellphone: {
+    src: "/assets/glb/Michelangelo_style_statue_of_dog_reading_news_on_a_cellphone.glb",
+    poster: "/assets/poster/Michelangelo_style_statue_of_dog_reading_news_on_a_cellphone.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "Michelangelo style statue of dog reading news on a cellphone",
+    shortCaption: "Michelangelo style statue of dog reading news on a cellphone"
+},
+logo: {
+    src: "/assets/glb/Starbucks_3d_logo.glb",
+    poster: "/assets/poster/Starbucks_3d_logo.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "Starbucks 3d logo",
+    shortCaption: "Starbucks 3d logo"
+},
+car: {
+    src: "/assets/glb/a_DSLR_photo_of_A_DMC_Delorean_car.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_A_DMC_Delorean_car.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of A DMC Delorean car",
+    shortCaption: "[...] A DMC Delorean car"
+},
+horns: {
+    src: "/assets/glb/a_DSLR_photo_of_An_iridescent_steampunk_patterned_millipede_with_bison_horns.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_An_iridescent_steampunk_patterned_millipede_with_bison_horns.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of An iridescent steampunk patterned millipede with bison horns",
+    shortCaption: "[...] An iridescent steampunk patterned millipede with bison horns"
+},
+decorations: {
+    src: "/assets/glb/a_DSLR_photo_of_a_Christmas_tree_with_donuts_as_decorations.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_Christmas_tree_with_donuts_as_decorations.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a Christmas tree with donuts as decorations",
+    shortCaption: "[...] a Christmas tree with donuts as decorations"
+},
+away: {
+    src: "/assets/glb/a_DSLR_photo_of_a_baby_grand_piano_viewed_from_far_away.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_baby_grand_piano_viewed_from_far_away.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a baby grand piano viewed from far away",
+    shortCaption: "[...] a baby grand piano viewed from far away"
+},
+armor: {
+    src: "/assets/glb/a_DSLR_photo_of_a_bear_dressed_in_medieval_armor.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_bear_dressed_in_medieval_armor.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a bear dressed in medieval armor",
+    shortCaption: "[...] a bear dressed in medieval armor"
+},
+bulldozer: {
+    src: "/assets/glb/a_DSLR_photo_of_a_bulldozer.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_bulldozer.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a bulldozer",
+    shortCaption: "[...] a bulldozer"
+},
+cheese: {
+    src: "/assets/glb/a_DSLR_photo_of_a_car_made_out_of_cheese.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_car_made_out_of_cheese.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a car made out of cheese",
+    shortCaption: "[...] a car made out of cheese"
+},
+pizza: {
+    src: "/assets/glb/a_DSLR_photo_of_a_car_made_out_pizza.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_car_made_out_pizza.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a car made out pizza",
+    shortCaption: "[...] a car made out pizza"
+},
+costume: {
+    src: "/assets/glb/a_DSLR_photo_of_a_cat_wearing_a_bee_costume.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_cat_wearing_a_bee_costume.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a cat wearing a bee costume",
+    shortCaption: "[...] a cat wearing a bee costume"
+},
+coins: {
+    src: "/assets/glb/a_DSLR_photo_of_a_cauldron_full_of_gold_coins.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_cauldron_full_of_gold_coins.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a cauldron full of gold coins",
+    shortCaption: "[...] a cauldron full of gold coins"
+},
+forest: {
+    src: "/assets/glb/a_DSLR_photo_of_a_chrome-plated_duck_with_a_golden_beak_arguing_with_an_angry_turtle_in_a_forest.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_chrome-plated_duck_with_a_golden_beak_arguing_with_an_angry_turtle_in_a_forest.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a chrome-plated duck with a golden beak arguing with an angry turtle in a forest",
+    shortCaption: "[...] a chrome-plated duck with a golden beak arguing with an angry turtle in a forest"
+},
+crown: {
+    src: "/assets/glb/a_DSLR_photo_of_a_cocker_spaniel_wearing_a_crown.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_cocker_spaniel_wearing_a_crown.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a cocker spaniel wearing a crown",
+    shortCaption: "[...] a cocker spaniel wearing a crown"
+},
+puppy: {
+    src: "/assets/glb/a_DSLR_photo_of_a_corgi_puppy.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_corgi_puppy.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a corgi puppy",
+    shortCaption: "[...] a corgi puppy"
+},
+wagon: {
+    src: "/assets/glb/a_DSLR_photo_of_a_covered_wagon.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_covered_wagon.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a covered wagon",
+    shortCaption: "[...] a covered wagon"
+},
+pond: {
+    src: "/assets/glb/a_DSLR_photo_of_a_mandarin_duck_swimming_in_a_pond.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_mandarin_duck_swimming_in_a_pond.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a mandarin duck swimming in a pond",
+    shortCaption: "[...] a mandarin duck swimming in a pond"
+},
+toothpicks: {
+    src: "/assets/glb/a_DSLR_photo_of_a_model_of_the_eiffel_tower_made_out_of_toothpicks.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_model_of_the_eiffel_tower_made_out_of_toothpicks.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a model of the eiffel tower made out of toothpicks",
+    shortCaption: "[...] a model of the eiffel tower made out of toothpicks"
+},
+marshmallows: {
+    src: "/assets/glb/a_DSLR_photo_of_a_mug_of_hot_chocolate_with_whipped_cream_and_marshmallows.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_mug_of_hot_chocolate_with_whipped_cream_and_marshmallows.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a mug of hot chocolate with whipped cream and marshmallows",
+    shortCaption: "[...] a mug of hot chocolate with whipped cream and marshmallows"
+},
+surfboard: {
+    src: "/assets/glb/a_DSLR_photo_of_a_peacock_on_a_surfboard.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_peacock_on_a_surfboard.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a peacock on a surfboard",
+    shortCaption: "[...] a peacock on a surfboard"
+},
+dog: {
+    src: "/assets/glb/a_DSLR_photo_of_a_pomeranian_dog.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_pomeranian_dog.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a pomeranian dog",
+    shortCaption: "[...] a pomeranian dog"
+},
+dragon: {
+    src: "/assets/glb/a_DSLR_photo_of_a_porcelain_dragon.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_porcelain_dragon.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a porcelain dragon",
+    shortCaption: "[...] a porcelain dragon"
+},
+rock: {
+    src: "/assets/glb/a_DSLR_photo_of_a_puffin_standing_on_a_rock.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_puffin_standing_on_a_rock.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a puffin standing on a rock",
+    shortCaption: "[...] a puffin standing on a rock"
+},
+metal: {
+    src: "/assets/glb/a_DSLR_photo_of_a_pug_made_out_of_metal.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_pug_made_out_of_metal.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a pug made out of metal",
+    shortCaption: "[...] a pug made out of metal"
+},
+frog: {
+    src: "/assets/glb/a_DSLR_photo_of_a_red-eyed_tree_frog.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_red-eyed_tree_frog.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a red-eyed tree frog",
+    shortCaption: "[...] a red-eyed tree frog"
+},
+singing: {
+    src: "/assets/glb/a_DSLR_photo_of_a_red_cardinal_bird_singing.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_red_cardinal_bird_singing.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a red cardinal bird singing",
+    shortCaption: "[...] a red cardinal bird singing"
+},
+stream: {
+    src: "/assets/glb/a_DSLR_photo_of_a_red_pickup_truck_driving_across_a_stream.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_red_pickup_truck_driving_across_a_stream.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a red pickup truck driving across a stream",
+    shortCaption: "[...] a red pickup truck driving across a stream"
+},
+platter: {
+    src: "/assets/glb/a_DSLR_photo_of_a_roast_turkey_on_a_platter.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_roast_turkey_on_a_platter.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a roast turkey on a platter",
+    shortCaption: "[...] a roast turkey on a platter"
+},
+tiger: {
+    src: "/assets/glb/a_DSLR_photo_of_a_robot_tiger.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_robot_tiger.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a robot tiger",
+    shortCaption: "[...] a robot tiger"
+},
+pot: {
+    src: "/assets/glb/a_DSLR_photo_of_a_small_saguaro_cactus_planted_in_a_clay_pot.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_small_saguaro_cactus_planted_in_a_clay_pot.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a small saguaro cactus planted in a clay pot",
+    shortCaption: "[...] a small saguaro cactus planted in a clay pot"
+},
+moped: {
+    src: "/assets/glb/a_DSLR_photo_of_a_teal_moped.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_teal_moped.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a teal moped",
+    shortCaption: "[...] a teal moped"
+},
+doctor: {
+    src: "/assets/glb/a_DSLR_photo_of_a_tiger_dressed_as_a_doctor.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_tiger_dressed_as_a_doctor.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a tiger dressed as a doctor",
+    shortCaption: "[...] a tiger dressed as a doctor"
+},
+yarn: {
+    src: "/assets/glb/a_DSLR_photo_of_a_tiger_made_out_of_yarn.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_tiger_made_out_of_yarn.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a tiger made out of yarn",
+    shortCaption: "[...] a tiger made out of yarn"
+},
+clay: {
+    src: "/assets/glb/a_DSLR_photo_of_a_train_engine_made_out_of_clay.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_train_engine_made_out_of_clay.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a train engine made out of clay",
+    shortCaption: "[...] a train engine made out of clay"
+},
+player: {
+    src: "/assets/glb/a_DSLR_photo_of_a_vintage_record_player.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_vintage_record_player.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a vintage record player",
+    shortCaption: "[...] a vintage record player"
+},
+chessboard: {
+    src: "/assets/glb/a_DSLR_photo_of_a_wine_bottle_and_full_wine_glass_on_a_chessboard.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_wine_bottle_and_full_wine_glass_on_a_chessboard.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a wine bottle and full wine glass on a chessboard",
+    shortCaption: "[...] a wine bottle and full wine glass on a chessboard"
+},
+school: {
+    src: "/assets/glb/a_DSLR_photo_of_a_wooden_desk_and_chair_from_an_elementary_school.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_a_wooden_desk_and_chair_from_an_elementary_school.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of a wooden desk and chair from an elementary school",
+    shortCaption: "[...] a wooden desk and chair from an elementary school"
+},
+room: {
+    src: "/assets/glb/a_DSLR_photo_of_an_exercise_bike_in_a_well_lit_room.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_an_exercise_bike_in_a_well_lit_room.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of an exercise bike in a well lit room",
+    shortCaption: "[...] an exercise bike in a well lit room"
+},
+sundae: {
+    src: "/assets/glb/a_DSLR_photo_of_an_ice_cream_sundae.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_an_ice_cream_sundae.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of an ice cream sundae",
+    shortCaption: "[...] an ice cream sundae"
+},
+restaurant: {
+    src: "/assets/glb/a_DSLR_photo_of_an_intricate_and_complex_dish_from_a_michelin_star_restaurant.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_an_intricate_and_complex_dish_from_a_michelin_star_restaurant.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of an intricate and complex dish from a michelin star restaurant",
+    shortCaption: "[...] an intricate and complex dish from a michelin star restaurant"
+},
+piano: {
+    src: "/assets/glb/a_DSLR_photo_of_an_octopus_playing_the_piano.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_an_octopus_playing_the_piano.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of an octopus playing the piano",
+    shortCaption: "[...] an octopus playing the piano"
+},
+sandwich: {
+    src: "/assets/glb/a_DSLR_photo_of_an_overstuffed_pastrami_sandwich.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_an_overstuffed_pastrami_sandwich.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of an overstuffed pastrami sandwich",
+    shortCaption: "[...] an overstuffed pastrami sandwich"
+},
+a_stream: {
+    src: "/assets/glb/a_DSLR_photo_of_an_unstable_rock_cairn_in_the_middle_of_a_stream.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_an_unstable_rock_cairn_in_the_middle_of_a_stream.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of an unstable rock cairn in the middle of a stream",
+    shortCaption: "[...] an unstable rock cairn in the middle of a stream"
+},
+vegetables: {
+    src: "/assets/glb/a_DSLR_photo_of_edible_typewriter_made_out_of_vegetables.glb",
+    poster: "/assets/poster/a_DSLR_photo_of_edible_typewriter_made_out_of_vegetables.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a DSLR photo of edible typewriter made out of vegetables",
+    shortCaption: "[...] edible typewriter made out of vegetables"
+},
+Claus: {
+    src: "/assets/glb/a_asian_Santa_Claus.glb",
+    poster: "/assets/poster/a_asian_Santa_Claus.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a asian Santa Claus",
+    shortCaption: "a asian Santa Claus"
+},
+fish: {
+    src: "/assets/glb/a_beautiful_rainbow_fish.glb",
+    poster: "/assets/poster/a_beautiful_rainbow_fish.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a beautiful rainbow fish",
+    shortCaption: "a beautiful rainbow fish"
+},
+motorcycle: {
+    src: "/assets/glb/a_blue_motorcycle.glb",
+    poster: "/assets/poster/a_blue_motorcycle.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a blue motorcycle",
+    shortCaption: "a blue motorcycle"
+},
+lily: {
+    src: "/assets/glb/a_blue_poison-dart_frog_sitting_on_a_water_lily.glb",
+    poster: "/assets/poster/a_blue_poison-dart_frog_sitting_on_a_water_lily.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a blue poison-dart frog sitting on a water lily",
+    shortCaption: "a blue poison-dart frog sitting on a water lily"
+},
+lion: {
+    src: "/assets/glb/a_ceramic_lion.glb",
+    poster: "/assets/poster/a_ceramic_lion.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a ceramic lion",
+    shortCaption: "a ceramic lion"
+},
+cauldron: {
+    src: "/assets/glb/a_chimpanzee_stirring_a_bubbling_purple_potion_in_a_cauldron.glb",
+    poster: "/assets/poster/a_chimpanzee_stirring_a_bubbling_purple_potion_in_a_cauldron.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a chimpanzee stirring a bubbling purple potion in a cauldron",
+    shortCaption: "a chimpanzee stirring a bubbling purple potion in a cauldron"
+},
+destroyed_car: {
+    src: "/assets/glb/a_completely_destroyed_car.glb",
+    poster: "/assets/poster/a_completely_destroyed_car.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a completely destroyed car",
+    shortCaption: "a completely destroyed car"
+},
+homework: {
+    src: "/assets/glb/a_confused_beagle_sitting_at_a_desk_working_on_homework.glb",
+    poster: "/assets/poster/a_confused_beagle_sitting_at_a_desk_working_on_homework.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a confused beagle sitting at a desk working on homework",
+    shortCaption: "a confused beagle sitting at a desk working on homework"
+},
+set: {
+    src: "/assets/glb/a_crocodile_playing_a_drum_set.glb",
+    poster: "/assets/poster/a_crocodile_playing_a_drum_set.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a crocodile playing a drum set",
+    shortCaption: "a crocodile playing a drum set"
+},
+Trump: {
+    src: "/assets/glb/a_cute_Donald_Trump.glb",
+    poster: "/assets/poster/a_cute_Donald_Trump.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a cute Donald Trump",
+    shortCaption: "a cute Donald Trump"
+},
+cat: {
+    src: "/assets/glb/a_cute_cat.glb",
+    poster: "/assets/poster/a_cute_cat.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a cute cat",
+    shortCaption: "a cute cat"
+},
+elephant: {
+    src: "/assets/glb/a_cute_steampunk_elephant.glb",
+    poster: "/assets/poster/a_cute_steampunk_elephant.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a cute steampunk elephant",
+    shortCaption: "a cute steampunk elephant"
+},
+spiderman: {
+    src: "/assets/glb/a_dancing_spiderman.glb",
+    poster: "/assets/poster/a_dancing_spiderman.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a dancing spiderman",
+    shortCaption: "a dancing spiderman"
+},
+hamburger: {
+    src: "/assets/glb/a_delicious_hamburger.glb",
+    poster: "/assets/poster/a_delicious_hamburger.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a delicious hamburger",
+    shortCaption: "a delicious hamburger"
+},
+together: {
+    src: "/assets/glb/a_fox_and_a_hare_tangoing_together.glb",
+    poster: "/assets/poster/a_fox_and_a_hare_tangoing_together.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a fox and a hare tangoing together",
+    shortCaption: "a fox and a hare tangoing together"
+},
+skirt: {
+    src: "/assets/glb/a_hotdog_in_a_tutu_skirt.glb",
+    poster: "/assets/poster/a_hotdog_in_a_tutu_skirt.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a hotdog in a tutu skirt",
+    shortCaption: "a hotdog in a tutu skirt"
+},
+sockets: {
+    src: "/assets/glb/a_human_skull_with_a_vine_growing_through_one_of_the_eye_sockets.glb",
+    poster: "/assets/poster/a_human_skull_with_a_vine_growing_through_one_of_the_eye_sockets.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a human skull with a vine growing through one of the eye sockets",
+    shortCaption: "a human skull with a vine growing through one of the eye sockets"
+},
+violin: {
+    src: "/assets/glb/a_humanoid_robot_playing_the_violin.glb",
+    poster: "/assets/poster/a_humanoid_robot_playing_the_violin.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a humanoid robot playing the violin",
+    shortCaption: "a humanoid robot playing the violin"
+},
+it: {
+    src: "/assets/glb/a_humanoid_robot_sitting_looking_at_a_Go_board_with_some_pieces_on_it.glb",
+    poster: "/assets/poster/a_humanoid_robot_sitting_looking_at_a_Go_board_with_some_pieces_on_it.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a humanoid robot sitting looking at a Go board with some pieces on it",
+    shortCaption: "a humanoid robot sitting looking at a Go board with some pieces on it"
+},
+lionfish: {
+    src: "/assets/glb/a_lionfish.glb",
+    poster: "/assets/poster/a_lionfish.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a lionfish",
+    shortCaption: "a lionfish"
+},
+suit: {
+    src: "/assets/glb/a_llama_wearing_a_suit.glb",
+    poster: "/assets/poster/a_llama_wearing_a_suit.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a llama wearing a suit",
+    shortCaption: "a llama wearing a suit"
+},
+cookie: {
+    src: "/assets/glb/a_metal_bunny_sitting_on_top_of_a_stack_of_chocolate_cookie.glb",
+    poster: "/assets/poster/a_metal_bunny_sitting_on_top_of_a_stack_of_chocolate_cookie.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a metal bunny sitting on top of a stack of chocolate cookie",
+    shortCaption: "a metal bunny sitting on top of a stack of chocolate cookie"
+},
+lady: {
+    src: "/assets/glb/a_naked_young_lady.glb",
+    poster: "/assets/poster/a_naked_young_lady.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a naked young lady",
+    shortCaption: "a naked young lady"
+},
+chair: {
+    src: "/assets/glb/a_panda_wearing_a_necktie_and_sitting_in_an_office_chair.glb",
+    poster: "/assets/poster/a_panda_wearing_a_necktie_and_sitting_in_an_office_chair.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a panda wearing a necktie and sitting in an office chair",
+    shortCaption: "a panda wearing a necktie and sitting in an office chair"
+},
+booth1: {
+    src: "/assets/glb/a_phone_booth1.glb",
+    poster: "/assets/poster/a_phone_booth1.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a phone booth1",
+    shortCaption: "a phone booth1"
+},
+blueberries: {
+    src: "/assets/glb/a_piece_of_Black_Forest_cake_with_blueberries.glb",
+    poster: "/assets/poster/a_piece_of_Black_Forest_cake_with_blueberries.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a piece of Black Forest cake with blueberries",
+    shortCaption: "a piece of Black Forest cake with blueberries"
+},
+strawberry: {
+    src: "/assets/glb/a_ripe_strawberry.glb",
+    poster: "/assets/poster/a_ripe_strawberry.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a ripe strawberry",
+    shortCaption: "a ripe strawberry"
+},
+fruits: {
+    src: "/assets/glb/a_silver_platter_piled_high_with_fruits.glb",
+    poster: "/assets/poster/a_silver_platter_piled_high_with_fruits.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a silver platter piled high with fruits",
+    shortCaption: "a silver platter piled high with fruits"
+},
+bread: {
+    src: "/assets/glb/a_sliced_loaf_of_fresh_bread.glb",
+    poster: "/assets/poster/a_sliced_loaf_of_fresh_bread.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a sliced loaf of fresh bread",
+    shortCaption: "a sliced loaf of fresh bread"
+},
+king: {
+    src: "/assets/glb/a_strong_monkey_king.glb",
+    poster: "/assets/poster/a_strong_monkey_king.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a strong monkey king",
+    shortCaption: "a strong monkey king"
+},
+field: {
+    src: "/assets/glb/a_team_of_butterflies_playing_soccer_on_a_field.glb",
+    poster: "/assets/poster/a_team_of_butterflies_playing_soccer_on_a_field.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a team of butterflies playing soccer on a field",
+    shortCaption: "a team of butterflies playing soccer on a field"
+},
+on_it: {
+    src: "/assets/glb/a_white_mug_with_golden_logo_on_it.glb",
+    poster: "/assets/poster/a_white_mug_with_golden_logo_on_it.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a white mug with golden logo on it",
+    shortCaption: "a white mug with golden logo on it"
+},
+rooster: {
+    src: "/assets/glb/a_wide_angle_DSLR_photo_of_a_colorful_rooster.glb",
+    poster: "/assets/poster/a_wide_angle_DSLR_photo_of_a_colorful_rooster.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a wide angle DSLR photo of a colorful rooster",
+    shortCaption: "a wide angle DSLR photo of a colorful rooster"
+},
+a_cauldron: {
+    src: "/assets/glb/a_wide_angle_DSLR_photo_of_a_mythical_troll_stirring_a_cauldron.glb",
+    poster: "/assets/poster/a_wide_angle_DSLR_photo_of_a_mythical_troll_stirring_a_cauldron.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a wide angle DSLR photo of a mythical troll stirring a cauldron",
+    shortCaption: "a wide angle DSLR photo of a mythical troll stirring a cauldron"
+},
+roof: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_3d_model_of_an_adorable_cottage_with_a_thatched_roof.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_3d_model_of_an_adorable_cottage_with_a_thatched_roof.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a 3d model of an adorable cottage with a thatched roof",
+    shortCaption: "a zoomed out DSLR photo of a 3d model of an adorable cottage with a thatched roof"
+},
+bricks: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_bulldozer_made_out_of_toy_bricks.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_bulldozer_made_out_of_toy_bricks.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a bulldozer made out of toy bricks",
+    shortCaption: "a zoomed out DSLR photo of a bulldozer made out of toy bricks"
+},
+train: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_cake_in_the_shape_of_a_train.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_cake_in_the_shape_of_a_train.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a cake in the shape of a train",
+    shortCaption: "a zoomed out DSLR photo of a cake in the shape of a train"
+},
+coffee: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_chimpanzee_holding_a_cup_of_hot_coffee.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_chimpanzee_holding_a_cup_of_hot_coffee.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a chimpanzee holding a cup of hot coffee",
+    shortCaption: "a zoomed out DSLR photo of a chimpanzee holding a cup of hot coffee"
+},
+grass: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_colorful_camping_tent_in_a_patch_of_grass.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_colorful_camping_tent_in_a_patch_of_grass.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a colorful camping tent in a patch of grass",
+    shortCaption: "a zoomed out DSLR photo of a colorful camping tent in a patch of grass"
+},
+excavator: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_construction_excavator.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_construction_excavator.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a construction excavator",
+    shortCaption: "a zoomed out DSLR photo of a construction excavator"
+},
+hat: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_corgi_wearing_a_top_hat.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_corgi_wearing_a_top_hat.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a corgi wearing a top hat",
+    shortCaption: "a zoomed out DSLR photo of a corgi wearing a top hat"
+},
+unicycle: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_dachsund_riding_a_unicycle.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_dachsund_riding_a_unicycle.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a dachsund riding a unicycle",
+    shortCaption: "a zoomed out DSLR photo of a dachsund riding a unicycle"
+},
+tractor: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_green_tractor.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_green_tractor.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a green tractor",
+    shortCaption: "a zoomed out DSLR photo of a green tractor"
+},
+shell: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_hermit_crab_with_a_colorful_shell.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_hermit_crab_with_a_colorful_shell.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a hermit crab with a colorful shell",
+    shortCaption: "a zoomed out DSLR photo of a hermit crab with a colorful shell"
+},
+lounge_chair: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_human_skeleton_relaxing_in_a_lounge_chair.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_human_skeleton_relaxing_in_a_lounge_chair.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a human skeleton relaxing in a lounge chair",
+    shortCaption: "a zoomed out DSLR photo of a human skeleton relaxing in a lounge chair"
+},
+accordion: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_kangaroo_sitting_on_a_bench_playing_the_accordion.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_kangaroo_sitting_on_a_bench_playing_the_accordion.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a kangaroo sitting on a bench playing the accordion",
+    shortCaption: "a zoomed out DSLR photo of a kangaroo sitting on a bench playing the accordion"
+},
+bird: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_kingfisher_bird.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_kingfisher_bird.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a kingfisher bird",
+    shortCaption: "a zoomed out DSLR photo of a kingfisher bird"
+},
+sailboat: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_majestic_sailboat.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_majestic_sailboat.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a majestic sailboat",
+    shortCaption: "a zoomed out DSLR photo of a majestic sailboat"
+},
+style: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_model_of_a_house_in_Tudor_style.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_model_of_a_house_in_Tudor_style.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a model of a house in Tudor style",
+    shortCaption: "a zoomed out DSLR photo of a model of a house in Tudor style"
+},
+hybrid: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_monkey-rabbit_hybrid.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_monkey-rabbit_hybrid.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a monkey-rabbit hybrid",
+    shortCaption: "a zoomed out DSLR photo of a monkey-rabbit hybrid"
+},
+bike: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_monkey_riding_a_bike.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_monkey_riding_a_bike.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a monkey riding a bike",
+    shortCaption: "a zoomed out DSLR photo of a monkey riding a bike"
+},
+boulder: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_mountain_goat_standing_on_a_boulder.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_mountain_goat_standing_on_a_boulder.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a mountain goat standing on a boulder",
+    shortCaption: "a zoomed out DSLR photo of a mountain goat standing on a boulder"
+},
+candlestick: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_mouse_holding_a_candlestick.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_mouse_holding_a_candlestick.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a mouse holding a candlestick",
+    shortCaption: "a zoomed out DSLR photo of a mouse holding a candlestick"
+},
+ramen: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_pair_of_floating_chopsticks_picking_up_noodles_out_of_a_bowl_of_ramen.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_pair_of_floating_chopsticks_picking_up_noodles_out_of_a_bowl_of_ramen.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a pair of floating chopsticks picking up noodles out of a bowl of ramen",
+    shortCaption: "a zoomed out DSLR photo of a pair of floating chopsticks picking up noodles out of a bowl of ramen"
+},
+cover: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_pigeon_standing_on_a_manhole_cover.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_pigeon_standing_on_a_manhole_cover.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a pigeon standing on a manhole cover",
+    shortCaption: "a zoomed out DSLR photo of a pigeon standing on a manhole cover"
+},
+lawnmower: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_rabbit_cutting_grass_with_a_lawnmower.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_rabbit_cutting_grass_with_a_lawnmower.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a rabbit cutting grass with a lawnmower",
+    shortCaption: "a zoomed out DSLR photo of a rabbit cutting grass with a lawnmower"
+},
+recliner_chair: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_recliner_chair.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_recliner_chair.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a recliner chair",
+    shortCaption: "a zoomed out DSLR photo of a recliner chair"
+},
+telephone: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_red_rotary_telephone.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_red_rotary_telephone.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a red rotary telephone",
+    shortCaption: "a zoomed out DSLR photo of a red rotary telephone"
+},
+dining: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_a_robot_couple_fine_dining.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_a_robot_couple_fine_dining.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of a robot couple fine dining",
+    shortCaption: "a zoomed out DSLR photo of a robot couple fine dining"
+},
+amigurumi_motorcycle: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_an_amigurumi_motorcycle.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_an_amigurumi_motorcycle.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of an amigurumi motorcycle",
+    shortCaption: "a zoomed out DSLR photo of an amigurumi motorcycle"
+},
+kitchen: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_an_astronaut_chopping_vegetables_in_a_sunlit_kitchen.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_an_astronaut_chopping_vegetables_in_a_sunlit_kitchen.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of an astronaut chopping vegetables in a sunlit kitchen",
+    shortCaption: "a zoomed out DSLR photo of an astronaut chopping vegetables in a sunlit kitchen"
+},
+office_chair: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_an_expensive_office_chair.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_an_expensive_office_chair.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of an expensive office chair",
+    shortCaption: "a zoomed out DSLR photo of an expensive office chair"
+},
+ground: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_an_origami_bulldozer_sitting_on_the_ground.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_an_origami_bulldozer_sitting_on_the_ground.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of an origami bulldozer sitting on the ground",
+    shortCaption: "a zoomed out DSLR photo of an origami bulldozer sitting on the ground"
+},
+river: {
+    src: "/assets/glb/a_zoomed_out_DSLR_photo_of_an_origami_hippo_in_a_river.glb",
+    poster: "/assets/poster/a_zoomed_out_DSLR_photo_of_an_origami_hippo_in_a_river.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "a zoomed out DSLR photo of an origami hippo in a river",
+    shortCaption: "a zoomed out DSLR photo of an origami hippo in a river"
+},
+horse: {
+    src: "/assets/glb/an_astronaut_on_a_horse.glb",
+    poster: "/assets/poster/an_astronaut_on_a_horse.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "an astronaut on a horse",
+    shortCaption: "an astronaut on a horse"
+},
+kangaroo: {
+    src: "/assets/glb/an_astronaut_riding_a_kangaroo.glb",
+    poster: "/assets/poster/an_astronaut_riding_a_kangaroo.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "an astronaut riding a kangaroo",
+    shortCaption: "an astronaut riding a kangaroo"
+},
+scorpion: {
+    src: "/assets/glb/an_iridescent_metal_scorpion.glb",
+    poster: "/assets/poster/an_iridescent_metal_scorpion.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "an iridescent metal scorpion",
+    shortCaption: "an iridescent metal scorpion"
+},
+vintage_car: {
+    src: "/assets/glb/an_old_vintage_car.glb",
+    poster: "/assets/poster/an_old_vintage_car.png",
+    "environment-image": "https://modelviewer.dev/shared-assets/environments/spruit_sunrise_1k_HDR.hdr",
+    caption: "an old vintage car",
+    shortCaption: "an old vintage car"
+},
