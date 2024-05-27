@@ -50,15 +50,16 @@
         <div class="container" style="max-width: 768px;">
             <h2 class="text-center">Automating the Diagnosis of Human Vision Disorders by Cross-modal 3D Generation</h2>
         </div>
-        <!-- <div class="container" style="max-width: 768px;">
-            <div class="row authors">
-                <div class="col-sm">
-                    <h5 class="text-center">Anonymous Author</h5>
-                    <h6 class="text-center">Affiliation</h6>
-                </div>
-            </div>    
-        </div> -->
+        <div class="container" style="max-width: 768px;">
+            <h6 class="text-center">Li Zhang, Yuankun Yang, Ziyang Xie, Zhiyuan Yuan, Jianfeng Feng, Xiatian Zhu, Yu-Gang Jiang</h6>
+        </div>
+        <hr class="divider" />
 
+        <div class="container" style="max-width: 768px;">
+            <div style="text-align: center;">
+                <img src="assets/image/figure1.jpg" style="width: 90%;">
+            </div>
+    
     </div>
     <hr class="divider" />
 
@@ -82,17 +83,13 @@
                     and yields as output the corresponding 3D object visuals.
                     Importantly, we show that in simulated scenarios our AI agent captures the distinct functionalities of each region of human vision system
                     as well as their intricate interplay relationships, aligning remarkably with the established discoveries of neuroscience.
-                    Non-expert diagnosis indicate that \ourmodel{} can successfully identify the disordered brain regions, such as V1, V2, V3, V4, and the medial temporal lobe (MTL) within the human visual system.
+                    Non-expert diagnosis indicate that Brain3D can successfully identify the disordered brain regions, such as V1, V2, V3, V4, and the medial temporal lobe (MTL) within the human visual system.
                     We also present results in cross-modal 3D visual construction setting, showcasing the perception quality of our 3D scene generation.
                 </p>
             </div>
         </div>
     </div>
 
-    <div class="container" style="max-width: 768px;">
-        <div style="text-align: center;">
-            <img src="assets/image/figure1.jpg" style="width: 90%;">
-        </div>
 
     <div class="container" style="max-width: 768px;">
         <div style="text-align: center;">
@@ -107,8 +104,11 @@
             <div class="col-md-12">
                 <h3>3D Reconstruction</h3>
                 <p>
-                    Brain3D achieves high-quality 3D reconstruction from fMRI, highlighting the presence of high-level
-                    geometric information in human object perception. 
+                    To test the effectiveness of Brain3D in 3D generation, we perform comprehensive comparisons with an existing 2D method.
+
+                    From the fMRI data Brain3D extracts rich appearance, semantic and geometric information, presenting a high degree of consistency with the stimuli images.
+                    Despite limited observation with the giraffe, skier and teddy bear in the three cases (see the last two rows), our bio-inspired model can process 3D details and comprehend their semantics beyond what is immediately visible in the 2D image, achieving finer semantic details than  MindEye.
+                    This result underscores the remarkable human's neural processing capability in constructing intricate 3D structures by interpreting and internalizing 3D geometric information from 2D visual stimuli.
                 </p>
             </div>
         </div>
@@ -211,50 +211,11 @@
     <div class="row">
         <div class="col-md-12">
             <h3>Results</h3>
-            <!-- <p>
-            By analyzing the 3D generation of fMRI, we observed that the interaction between the left and
-            right hemispheres of the brain can improve visual quality. 
-            We also found a joint contribution between the visual brain
-            region
-            and the medial temporal lobe (MTL) brain region in forming a comprehensive understanding of the observed object. V1
-            brain
-            regions excel in capturing features and silhouettes, while V2, V3, and V4 regions complement this by emphasizing texture
-            and
-            color based on V1. These findings shed light on how the human brain processes high-level geometry alongside low-level
-            textures, providing valuable insights into the human visual perception mechanisms.
-            </p> -->
-            <h4>Left and right hemispheres collaborate to improve the visual quality</h4>
-            <p>Experiments conducted on the left and right brain hemispheres separately for feature extraction and 3D decoding showed
-            no significant difference in performance across several 3D processing methods (Inception, CLIP, EfficientNet, and Swav).
-            However, combining both hemispheres led to improved reconstruction and 3D processing performance. While both hemispheres
-            demonstrated similar abilities in object feature perception across various evaluation metrics, their performance varied
-            on individual objects. Differences were also noted in the reconstruction of objects when comparing the left and right
-            hemispheres, with their combined effort resulting in better quality in 3D scene generation.</p>
-
-
-            <img src="assets/image/images1-1.png" style="width: 100%;">
-<!--
-            <p>
-                 <strong>a</strong> We experimented on the left and right hemispheres separately for feature extraction and 3D
-                decoding.
-                <strong>b</strong> There is no clear difference in the overall performance in the left and right hemispheres in 3D
-                Inception, 3D
-                CLIP, 3D EfficientNet, and 3D Swav. <strong>c-d</strong> The combination of both left and right hemispheres could
-                reconstruct
-                the object with better 3D Inception, 3D CLIP, 3D EfficientNet, and 3D Swav performance. <strong>e-f</strong> Left
-                and right
-                hemispheres show a close object feature perception ability in all evaluation metrics in every quantile. Boxen plot
-                shows
-                5&#37;, 15&#37;, 25&#37;, 50&#37;, 75&#37;, 85&#37;, and 95&#37; percentile. <strong>g-j</strong> Although the left
-                and right hemispheres achieve a
-                close overall reconstruction performance, their performance is quite different among each specific object.
-                Coordinates
-                of crosses (+) represent the performance from the left and right hemispheres in each reconstruction object.
-                <strong>k</strong>
-                Given similar example images, there is quite a difference in reconstruction objects from the left and right
-                hemispheres.
-                Their collaborated 3D scene exhibits an improvement in generation quality.
-            </p> -->
+            <h4>Enhanced visual quality through collaboration between the left and right hemispheres</h4>
+            <p>We investigate whether our model presents biological consistency in terms of regional functionalities.
+                We first examine the roles of the left and right brain hemispheres, as well as their collaboration during the 3D object reconstruction process. 
+                Specifically, we observe that the two hemispheres make different holistic contributions to object perception, due to exhibiting distinct performances for specific objects. The left hemisphere tends to depict finer details and intricate structures in object visualization, while the right hemisphere better captures the overall shape and silhouette. These results align with previous discoveries that the left hemisphere is involved in detail-oriented tasks while the right hemisphere in more holistic tasks.
+            <img src="assets/image/figure4.jpg" style="width: 100%;">
         </div>
     </div>
 </div>
@@ -263,135 +224,45 @@
 <div class="container" style="max-width: 768px;">
     <div class="row">
         <div class="col-md-12">
-            <h4>Visual region predominates in comprehension</h4>
-            <p>Visual regions in the brain show better performance than Medial Temporal Lobe (MTL) regions in various 3D processing
-            methods like Inception, CLIP, EfficientNet, and Swav. The vision region, in particular, has a higher rate of objects
-            with better scores in 3D Inception and 3D CLIP. Statistical significance is indicated by various p-values, showing
-            differences between the MTL and other regions. There is only a slight positive correlation between the vision and MTL
-            regions in object perception. While the MTL region is more focused on extracting semantic features from images, the
-            vision region primarily deals with textures and silhouettes of objects.</p>
+            <h4>Dominance of V1 visual regions  in feature and silhouette processing</h4>
+            <p>We further investigate the functionalities of the various visual regions and the medial temporal lobe (MTL) region.
+                Our research shows that the visual cortex exhibits higher visual decoding ability than MTL region. The significance level refers to the probability of error when rejecting the null hyothesis that visual cortex shares the similar performance as MTL region. Specifically, the visual cortex captures local fine-grained visual information such as the ``windows''  of an airplane and the ``motorcycle rider'', 
+                while the MTL region captures holistic shapes like ``airplane skeleton'' and ``person''. This visualization 
+                highlights higher-level 3D-shape-related concepts while foregoing pixel-level details. This finding provides a novel perspective on how the MTL region may contribute to the formation and recall of long-term memories, emphasizing its role in abstracting complex visual information.
 
-            <img src="assets/image/images2-1.png" style="width: 100%;">
-            <!-- <p>
-                <strong>a</strong> Visual regions exhibit better performance than MTL regions in 3D Inception, 3D CLIP, 3D
-                EfficientNet and 3D
-                Swav. <strong>b-c</strong> Vision region exhibits a higher proportion of objects with high 3D Inception and 3D CLIP
-                scores.
-                Crosses (+) represent the performance of each reconstruction object in each criterion. MTL vs all: 3D Inception:
-                p=0.007,
-                3D CLIP: p=0.05, 3D EfficientNet p=0.013 3D Swav p=0.017.* = p&lt;0.05, **=p&lt;0.01, ***=p&lt;0.001.
-                <strong>d-g</strong> There is
-                little positive correlation between vision and MTL region to perceive objects. Coordinates of crosses (+) represent
-                the performance from vision and MTL in each reconstruction object. <strong>h</strong> MTL region tends to extract
-                semantic
-                features from the witnessed image, while the vision region concentrates on textures and silhouettes of the origin
-                object.
-            </p> -->
-
-        </div>
-    </div>
-</div>
-
-
-    <hr class="divider" />
-
-<div class="container" style="max-width: 768px;">
-    <div class="row">
-        <div class="col-md-12">
-            <h4>V1 Regions excel in features and silhouettes</h4>
-            <p>V1 brain regions demonstrate superior performance in object perception, exhibiting higher scores in 3D Inception and 3D
-            CLIP, but lower in 3D EfficientNet and 3D Swav, compared to other visual regions. They outperform V2, V3, and V4 regions
-            in extracting and reconstructing objects. V2 and V3, as well as V2 and V4, show a strong positive correlation in the 3D
-            CLIP correlation scatter plot. The V1 region is primarily involved in extracting and restoring features and silhouettes
-            of images, whereas V2, V3, and V4 regions focus more on texture details.</p>
-                    <img src="assets/image/images3-1.png" style="width: 100%;">
-
-<!-- <p>
-    <strong>a</strong> V1 regions show higher 3D Inception, 3D CLIP, and lower 3D EfficientNet and 3D Swav score,
-    achieving better performance among all visual regions in object perception.
-    <strong>b-e</strong> V1 Regions exhibit better performance than V2, V3 and V4 to extract and reconstruct objects.
-    <strong>f</strong> V2 &amp; V3, V2 &amp; V4 shows a high positive correlation in the correlation scatter plot of 3D
-    CLIP.
-    <strong>g</strong> V1 region extracts and restores features and silhouettes of the given image, while V2, V3, and V4
-    concentrate on a fraction of texture details.
-</p> -->
-        </div>
-    </div>
-</div>
-
-
-
-    <hr class="divider" />
-    
-    <div class="container" style="max-width: 768px;">
-        <div class="row">
-            <div class="col-md-12">
-                <h4>Low-Level and High-Level Embedding are both detrimental in visual processing</h4>
-                <p>Integrating both low-level and high-level information processing enhances the human brain's ability to perceive objects.
-                This is represented in boxplots showing median, 25th, and 75th percentiles among four metrics, with crosses indicating
-                the scores of each image presented to participants. High-level embedding in functional Magnetic Resonance Imaging (fMRI)
-                focuses on abstract semantic information, while low-level embedding deals with color and texture. The combination of
-                these two types of embeddings in fMRI leads to improved object perception, encompassing both semantic and textural
-                features.</p>
-                <img src="assets/image/images4-1.png" style="width: 100%;">
-<!--     
-<p>
-    <strong>a-d</strong> Integration of both Low-Level and High-Level is beneficial for human brains to better perceive
-    objects. Boxplots exhibit the median, the 25th, and 75th percentiles as box edges among the four metrics. Crosses
-    (+) represent the scores of each image with the category displayed to participants.
-    <strong>e</strong> High-level embedding in fMRI concentrates on abstract semantic information, while low-level
-    embedding in fMRI focuses on color and texture information. Their combination achieves the perception of objects in
-    human brains with both semantic and texture features.
-</p> -->
-
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-
-<hr class="divider" />
-
-<div class="container" style="max-width: 768px;">
-    <div class="row">
-        <div class="col-md-12">
-            <h4>Semantic stage and UMAP projection both improve reconstruction quality</h4>
-            <p>
-                In various evaluation metrics and across all quantiles, the semantic stage in image processing significantly outperforms
-                the perception stage, as evidenced by boxen plots covering a wide range of percentiles. This stage is characterized by a
-                higher number of high scores in 3D Inception and 3D CLIP, alongside a shift towards lower scores in 3D EfficientNet and
-                3D Swav. 3D objects processed in the semantic stage exhibit greater fidelity compared to those in the perception stage.
-                The application of UMAP projection enhances reconstruction quality across all metrics and quantiles, leading to more
-                scenes with high 3D Inception and 3D CLIP scores, while reducing 3D EfficientNet and 3D Swav scores. Additionally, UMAP
-                projection contributes to improved textural stability in fMRI reconstructions.
+                V1 region exhibits predominant ability in visual representation among various visual regions. 
+                To further break down, V1 region plays a pivotal role in handling elementary visual information, including edges, features, and color.
+                V2 and V3 regions play a role in synthesizing various features into complex visual forms,
+                while V4 region focuses on basic color process at coarse level).
+                However, our research brings to light a nuanced understanding of the interdependence within the visual cortex. Specifically, we demonstrate the reliance of the V2, V3, and V4 regions on the V1 region for constructing 3D vision. This is evident from the disrupted 3D geometries. This reliance likely stems from the fact that these regions process information initially received by V1~\cite{Hubel1979brain}, indicating a foundational dependence on V1 for effective visual processing.
+                These findings emphasize the collaborative and interactive roles of these brain regions in forming a comprehensive visual representation.
+                This result is thus biologically consistent to great extent.
             </p>
-            <img src="assets/image/images5-1.png" style="width: 100%;">
-<!-- <p>
-    <strong>a</strong> The semantic stage outperforms the perception stage in all evaluation metrics in every quantile.
-    Boxen plot shows 5&#37;, 15&#37;, 25&#37;, 50&#37;, 75&#37;, 85&#37;, and 95&#37; percentile.
-    <strong>b</strong> The semantic stage exhibits a larger proportion of high 3D Inception and 3D CLIP scores and a
-    left shift of 3D EfficientNet and 3D Swav scores.
-    <strong>c</strong> The semantic stage 3D objects show higher fidelity than the perception stage.
-    <strong>d</strong> UMAP projection improves reconstruction quality among all metrics in every quantile.
-    <strong>e</strong> Employing UMAP projection achieves more scenes with high 3D Inception and 3D cLIP scores and
-    enables smaller 3D EfficientNet and 3D Swav scores.
-    <strong>f</strong> UMAP projection improves textural stability in fMRI reconstruction.
-</p> -->
 
+            <img src="assets/image/figure5.jpg" style="width: 100%;">
         </div>
     </div>
 </div>
 
 
+    <hr class="divider" />
 
-
-
-
+<div class="container" style="max-width: 768px;">
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Brain3D can diagnose regions with disorder</h4>
+            <p>Motivated by the high biological consistency in terms of regional functions, we examine the usefulness of Brain3D in diagnosing disordered brain regions by designing a series of simulation based experiments.
+                Notably, almost perfect diagnosis is achieved for the disorders with the V1 and MTL regions.
+                V1 disorder tends to cause significant distortion to the output, consistent with the earlier finding about its critical role in processing basic visual information.
+                Disorder in V2 region leads to changes in the detailed shape and motion of objects, e.g., orientation of the airplane and shape of the motorcycle.
+                V3 region primarily affects the details and movements, e.g., the change from motorcycle to rider. Disorder in  V4 region might cause color shift and variation.
+                Instead, MTL's disorder could be concerned with high-level semantics, e.g., increased ambiguity in object appearance.</p>
+                    <img src="assets/image/figure6.png" style="width: 100%;">
+        </div>
     </div>
+</div>
+
+
     <hr class="divider" />
     <div class="container" style="max-width: 768px;">
         <div class="row">
@@ -403,14 +274,7 @@
             </div>
         </div>
     </div>
-        <!-- <div class="container" style="max-width: 768px;">
-            <div class="row">
-                <div class="col-md-12">
-                    <p>
-                        3D scenes                      </p>
-                </div>
-            </div>
-        </div> -->
+
 <div class="container" style="max-width: 768px; display: flex; justify-content: space-between;">
 
     <div class="half" style="width: 12%; text-align: center; margin-right: 1%;">
