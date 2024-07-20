@@ -48,7 +48,7 @@
 
     <div class="highlight-clean" style="padding-bottom: 10px;">
         <div class="container" style="max-width: 768px;">
-            <h2 class="text-center">Automating the Diagnosis of Human Vision Disorders by Cross-modal 3D Generation</h2>
+            <h2 class="text-center">Neural 3D decoding for human vision diagnosis</h2>
         </div>
         <div class="container" style="max-width: 768px;">
             <h6 class="text-center">Li Zhang, Yuankun Yang, Ziyang Xie, Zhiyuan Yuan, Jianfeng Feng, Xiatian Zhu, Yu-Gang Jiang</h6>
@@ -78,12 +78,12 @@
                     In this context, we leap forward to demonstrate how AI can go beyond the current state of the art by decoding fMRI into visually plausible 3D visuals,
                     enabling automatic clinical analysis of fMRI data, even without healthcare professionals.
                     Innovationally, we reformulate the task of analyzing fMRI data as
-                    a {\em conditional 3D scene reconstruction} problem.
+                    a conditional 3D scene reconstruction problem.
                     We design a novel cross-modal 3D scene representation learning method, \ourmodel, that takes as input the fMRI data of a subject who was presented with a 2D object image,
                     and yields as output the corresponding 3D object visuals.
                     Importantly, we show that in simulated scenarios our AI agent captures the distinct functionalities of each region of human vision system
                     as well as their intricate interplay relationships, aligning remarkably with the established discoveries of neuroscience.
-                    Non-expert diagnosis indicate that Brain3D can successfully identify the disordered brain regions, such as V1, V2, V3, V4, and the medial temporal lobe (MTL) within the human visual system.
+                    Non-expert diagnosis indicate that our model can successfully identify the disordered brain regions, such as V1, V2, V3, V4, and the medial temporal lobe (MTL) within the human visual system.
                     We also present results in cross-modal 3D visual construction setting, showcasing the perception quality of our 3D scene generation.
                 </p>
             </div>
@@ -107,7 +107,7 @@
                     To test the effectiveness of Brain3D in 3D generation, we perform comprehensive comparisons with an existing 2D method.
 
                     From the fMRI data Brain3D extracts rich appearance, semantic and geometric information, presenting a high degree of consistency with the stimuli images.
-                    Despite limited observation with the giraffe, skier and teddy bear in the three cases (see the last two rows), our bio-inspired model can process 3D details and comprehend their semantics beyond what is immediately visible in the 2D image, achieving finer semantic details than  MindEye.
+                    Despite limited observation with the giraffe, skier and teddy bear in the three cases (see the last two rows), our bio-inspired model can process 3D details and comprehend their semantics beyond what is immediately visible in the 2D image, achieving finer semantic details than  MindEye<sup>1</sup>.
                     This result underscores the remarkable human's neural processing capability in constructing intricate 3D structures by interpreting and internalizing 3D geometric information from 2D visual stimuli.
                 </p>
             </div>
@@ -214,7 +214,7 @@
             <h4>Enhanced visual quality through collaboration between the left and right hemispheres</h4>
             <p>We investigate whether our model presents biological consistency in terms of regional functionalities.
                 We first examine the roles of the left and right brain hemispheres, as well as their collaboration during the 3D object reconstruction process. 
-                Specifically, we observe that the two hemispheres make different holistic contributions to object perception, due to exhibiting distinct performances for specific objects. The left hemisphere tends to depict finer details and intricate structures in object visualization, while the right hemisphere better captures the overall shape and silhouette. These results align with previous discoveries that the left hemisphere is involved in detail-oriented tasks while the right hemisphere in more holistic tasks.
+                Specifically, we observe that the two hemispheres make different holistic contributions to object perception, due to exhibiting distinct performances for specific objects. The left hemisphere tends to depict finer details and intricate structures in object visualization, while the right hemisphere better captures the overall shape and silhouette. These results align with previous discoveries that the left hemisphere is involved in detail-oriented tasks while the right hemisphere in more holistic tasks<sup>2</sup><sup>3</sup>.
             <img src="assets/image/figure4-1.png" style="width: 100%;">
         </div>
     </div>
@@ -233,8 +233,8 @@
                 V1 region exhibits predominant ability in visual representation among various visual regions. 
                 To further break down, V1 region plays a pivotal role in handling elementary visual information, including edges, features, and color.
                 V2 and V3 regions play a role in synthesizing various features into complex visual forms,
-                while V4 region focuses on basic color process at coarse level).
-                However, our research brings to light a nuanced understanding of the interdependence within the visual cortex. Specifically, we demonstrate the reliance of the V2, V3, and V4 regions on the V1 region for constructing 3D vision. This is evident from the disrupted 3D geometries. This reliance likely stems from the fact that these regions process information initially received by V1~\cite{Hubel1979brain}, indicating a foundational dependence on V1 for effective visual processing.
+                while V4 region focuses on basic color process at coarse level.
+                However, our research brings to light a nuanced understanding of the interdependence within the visual cortex. Specifically, we demonstrate the reliance of the V2, V3, and V4 regions on the V1 region for constructing 3D vision. This is evident from the disrupted 3D geometries. This reliance likely stems from the fact that these regions process information initially received by V1<sup>4</sup>, indicating a foundational dependence on V1 for effective visual processing.
                 These findings emphasize the collaborative and interactive roles of these brain regions in forming a comprehensive visual representation.
                 This result is thus biologically consistent to great extent.
             </p>
@@ -425,6 +425,27 @@
     </video>
 </div>
 
+
+<hr class="divider" />
+
+
+<div class="container" style="max-width: 768px;">
+    <h3>References</h3>
+    <ol>
+        <li>
+            Scotti, P., Banerjee, A., Goode, J., Shabalin, S., Nguyen, A., Dempster, A.,  ...   Abraham, T. (2024). Reconstructing the mind's eye: fMRI-to-image with contrastive learning and diffusion priors. Advances in Neural Information Processing Systems, 36.      
+        </li>
+        <li>
+            Iaccino, J. F. Left brain-right brain differences: Inquiries, evidence, and new approaches. Psychology Press. (2014). 
+        </li>
+        <li>
+            Sun, T.,   Walsh, C. A. Molecular approaches to brain asymmetry and handedness. Nature Reviews Neuroscience, 7(8), 655-662. (2006).          
+        </li>         
+        <li>
+            Hubel, D. H.,   Wiesel, T. N.  Brain mechanisms of vision. Scientific American, 241(3), 150-163. (1979).
+        </li>                 
+    </ol>
+</div>
 
 </body>
 
